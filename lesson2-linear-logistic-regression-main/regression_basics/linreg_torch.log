@@ -1,0 +1,17 @@
+23:57:58 | INFO | Датасет: diabetes, X=(442, 10), устройство: cpu
+23:58:01 | INFO | Epoch   1/100 | train_mse=13637.0849 | val_mse=5834.2910 | val_rmse=76.3825 | val_r2=0.0613
+23:58:02 | INFO | Epoch  10/100 | train_mse=2975.4989 | val_mse=3425.6243 | val_rmse=58.5288 | val_r2=0.4488
+23:58:02 | INFO | Epoch  20/100 | train_mse=2893.0764 | val_mse=3268.6794 | val_rmse=57.1724 | val_r2=0.4741
+23:58:02 | INFO | Epoch  30/100 | train_mse=3189.1525 | val_mse=4251.7363 | val_rmse=65.2053 | val_r2=0.3159
+23:58:02 | INFO | Epoch  40/100 | train_mse=2860.9088 | val_mse=3446.6917 | val_rmse=58.7085 | val_r2=0.4454
+23:58:02 | INFO | Epoch  50/100 | train_mse=2921.6472 | val_mse=3743.4189 | val_rmse=61.1835 | val_r2=0.3977
+23:58:02 | INFO | Epoch  60/100 | train_mse=2858.7228 | val_mse=3352.0493 | val_rmse=57.8969 | val_r2=0.4607
+23:58:02 | INFO | Epoch  70/100 | train_mse=2915.1269 | val_mse=3269.8845 | val_rmse=57.1829 | val_r2=0.4739
+23:58:03 | INFO | Epoch  80/100 | train_mse=2868.6237 | val_mse=3643.8643 | val_rmse=60.3644 | val_r2=0.4137
+23:58:03 | INFO | Epoch  90/100 | train_mse=3030.6213 | val_mse=3310.9580 | val_rmse=57.5409 | val_r2=0.4673
+23:58:03 | INFO | Epoch 100/100 | train_mse=2842.0780 | val_mse=3506.0366 | val_rmse=59.2118 | val_r2=0.4359
+23:58:03 | INFO | Содержимое state_dict:
+23:58:03 | INFO |   linear.weight: shape=(1, 10) -> [0.26731932163238525, -9.339391708374023, 26.233720779418945, 20.70415687561035, -20.380212783813477]
+23:58:03 | INFO |   linear.bias: shape=(1,) -> [149.72169494628906]
+23:58:03 | INFO | Финальные веса сохранены в linreg_torch.pth
+23:58:03 | INFO | Лучшая модель (linreg_torch_best.pth): val_mse=3214.7100, val_rmse=56.6984, val_r2=0.4828

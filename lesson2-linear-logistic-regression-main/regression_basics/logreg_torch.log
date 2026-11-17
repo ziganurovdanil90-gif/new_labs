@@ -1,0 +1,14 @@
+23:58:21 | INFO | Датасет: breast_cancer, X=(569, 30), устройство: cpu
+23:58:25 | INFO | Epoch   1/100 | train_bce=0.3555 | val_bce=0.2236 | val_acc=0.8938 | val_f1=0.9091
+23:58:25 | INFO | Epoch  10/100 | train_bce=0.0853 | val_bce=0.1253 | val_acc=0.9646 | val_f1=0.9701
+23:58:25 | INFO | Epoch  20/100 | train_bce=0.0694 | val_bce=0.1137 | val_acc=0.9646 | val_f1=0.9701
+23:58:25 | INFO | Epoch  30/100 | train_bce=0.0625 | val_bce=0.1083 | val_acc=0.9646 | val_f1=0.9701
+23:58:26 | INFO | Epoch  40/100 | train_bce=0.0586 | val_bce=0.1053 | val_acc=0.9646 | val_f1=0.9701
+23:58:26 | INFO | Epoch  50/100 | train_bce=0.0558 | val_bce=0.1041 | val_acc=0.9646 | val_f1=0.9701
+23:58:26 | INFO | Epoch  60/100 | train_bce=0.0537 | val_bce=0.1023 | val_acc=0.9646 | val_f1=0.9701
+23:58:26 | INFO | Epoch  70/100 | train_bce=0.0520 | val_bce=0.1007 | val_acc=0.9646 | val_f1=0.9701
+23:58:26 | INFO | Epoch  80/100 | train_bce=0.0507 | val_bce=0.0995 | val_acc=0.9646 | val_f1=0.9701
+23:58:27 | INFO | Epoch  90/100 | train_bce=0.0499 | val_bce=0.0991 | val_acc=0.9646 | val_f1=0.9701
+23:58:27 | INFO | Epoch 100/100 | train_bce=0.0489 | val_bce=0.0983 | val_acc=0.9646 | val_f1=0.9701
+23:58:27 | INFO | Финальные веса сохранены в logreg_torch.pth
+23:58:27 | INFO | Лучшая модель (logreg_torch_best.pth): accuracy=0.9646, precision=0.9701, recall=0.9701, f1=0.9701
